@@ -1,0 +1,8 @@
+include: package:solid_lints/analysis_options.yaml
+
+custom_lint:
+  rules:
+    - function_lines_of_code: false
+    - cyclomatic_complexity: false
+    - avoid_late_keyword: false
+    - prefer_match_file_name: false
