@@ -5,7 +5,7 @@ void main() {
   runApp(MyApp());
 }
 
-/// Головний віджет додатка.
+/// Main widget
 class MyApp extends StatefulWidget {
   @override
   State<MyApp> createState() => _MyAppState();
@@ -21,7 +21,7 @@ class _MyAppState extends State<MyApp> {
   }
 }
 
-/// Головний екран програми.
+/// Main screen
 class MainScreen extends StatefulWidget {
   @override
   _ColorState createState() => _ColorState();
